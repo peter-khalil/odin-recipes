@@ -2,3 +2,10 @@
 
 Project Nº 001 from _The Odin Project_'s assignments.
 
+## Skills
+
+- [ ] Git
+- [ ] HTML
+- [ ] Terminal
+
+

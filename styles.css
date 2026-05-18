@@ -1,0 +1,77 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+body {
+	width: 60%;
+	margin: 0 auto;
+	background: #f0f0e8;
+	color: #111111;
+	font-family: Tahoma, sans-serif;
+	font-size: 16px;
+
+	header {
+		text-align: center;
+		
+		h1 {
+			text-transform: uppercase;
+
+			a {
+				text-decoration: none;
+			}
+		}
+
+		p {
+			font-style: italic;
+		}
+	}
+	
+	main {
+		background: #fcfcfa;
+		padding: 20px;
+		border-radius: 10px;
+
+
+
+		article {
+			margin: 0 auto;
+
+			h1 {
+				font-weight: 100;
+				text-transform: capitalize;
+			}
+
+			h2 {
+				font-weight: 500;
+				font-variant-caps: small-caps;
+			}
+
+			figure {
+				display: block;
+				margin: 0 auto;
+
+				img {
+					display: flex;
+					margin: 0 auto;
+					padding: 10px;
+					justify-content: center;
+				}
+
+				figcaption {
+					font-size: 14px;
+					text-align: center;
+				}
+
+			}
+
+			li,
+			p {
+				line-height: 1.6;
+				text-align: justify;
+			}
+		}
+	}
+
+}
